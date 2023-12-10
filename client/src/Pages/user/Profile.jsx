@@ -75,8 +75,8 @@ const Profile = () => {
           <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6">
             <img
               className="object-cover object-center rounded"
-              alt="hero"
-              src={user?.profilePicture.secure_url}
+              alt="Profile Picture  "
+              src={user?.profilePicture.secure_url }
             />
           </div>
         </div>
